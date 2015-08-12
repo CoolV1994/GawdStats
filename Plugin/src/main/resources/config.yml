@@ -1,0 +1,11 @@
+# Stat Sync Configuration
+#
+# URL to send data to
+url: 'http://stats.gawdscape.com/in.php'
+# X-Requested-With
+requester: GawdScapeStatSync
+# Main Minecraft World
+world: world
+# Cooldown time after logout
+# in Minutes
+time: 240

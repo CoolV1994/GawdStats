@@ -1,0 +1,11 @@
+name: StatSync
+main: com.gawdscape.statsync.StatSync
+version: maven-version-number
+website: http://stats.gawdscape.com/
+description: Syncronizes statitcs to the leaderboard.
+authors: [CoolV1994]
+commands:
+  statsync:
+    description: Sync statistics.
+    usage: /<command> [username | all]
+    aliases: [sync]

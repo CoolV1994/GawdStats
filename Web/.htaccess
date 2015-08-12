@@ -1,0 +1,3 @@
+RewriteEngine On
+#RewriteBase /
+#RewriteRule ^images/(.*)/(.*).png$ image.php?cat=$1&img=$2 [L,QSA]
