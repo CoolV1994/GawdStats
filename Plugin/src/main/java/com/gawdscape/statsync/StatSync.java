@@ -102,12 +102,14 @@ public class StatSync extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        reloadConfig();
+        saveDefaultConfig();
         getServer().getPluginManager().registerEvents(playerListener, this);
         getCommand("statsync").setExecutor(new SyncCommand(this));
     }
 
     @Override
     public void onDisable() {
-        saveDefaultConfig();
+
     }
 }

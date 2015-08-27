@@ -1,7 +1,7 @@
 # Stat Sync Configuration
 #
 # URL to send data to
-url: 'http://stats.gawdscape.com/in.php'
+url: 'http://localhost/in.php'
 # X-Requested-With
 requester: GawdScapeStatSync
 # Main Minecraft World
